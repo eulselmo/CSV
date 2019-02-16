@@ -1,21 +1,17 @@
 # READ FROM CSV
- **Comentario de como se ejecuta y del path**
-## COUNTRY
-* **Country.cs** - Example to calculate the average marks of diferents students 
-in differents countries 
+ **To compile the program in the windows console we must follow the following path, c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe Country.cs. And to execute it we apply the name of the file and the continent that is wanted: Country Asia**
 
- The syntax is similar to the one in SQL, but with the advantage that we have the power of .net and visual studio when coding. With lambda, we can directly call functions where, join, select, directly from the object.
+## COUNTRY
+* **Country.cs** - The program takes the data.csv database that contains information about each country. Through a Linq type query, the countries with density greater than 100 from a single continent are shown. The objective of the program is to show the total of Countries that pass the condition and information about it, such as Country Name, Density, Population and Area. 
 
   ![Country](img/Country.PNG)
 
 ## COUNTRY 2
-* **Country2.cs** - Example about how much faster is parallel loop than the normal 
-version
+* **Country2.cs** - This other program also gets the data.csv database. The program performs a Linq query to show the countries with the highest density of a continent. The program also shows the total of Countries that pass the condition, and information on Country Name, Density, Population and Area.
 
   ![Country 2](img/Country2.PNG)
 
 ## COUNTRY 3
-* **Country3.cs** - 
-  Can improve performance a lot by parallelizing your code, but it also has overhead (synchronization between threads, invoking the delegate on each iteration).
+* **Country3.cs** - The last program takes the data.csv database. A Linq type query is carried out showing the countries with the highest density in a continent. This program shows the total of Countries that pass this condition, the total population in the world, and information such as Country Name, Density, Population and Area
 
   ![Country 3](img/Country3.PNG)
