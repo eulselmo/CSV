@@ -1,4 +1,4 @@
-[COUNTRY]
+#COUNTRY
 * **Country.cs** - Example to calculate the average marks of diferents students 
 in differents countries 
 
@@ -6,13 +6,13 @@ in differents countries
 
   ![Country](img/Country.PNG)
 
-[COUNTRY 2]
+#COUNTRY 2
 * **Country2.cs** - Example about how much faster is parallel loop than the normal 
 version
 
   ![Country 2](img/Country2.PNG)
 
-[COUNTRY 3]
+#COUNTRY 3
 * **Country3.cs** - Perfect Numbers using parallel for
   Can improve performance a lot by parallelizing your code, but it also has overhead (synchronization between threads, invoking the delegate on each iteration).
 
